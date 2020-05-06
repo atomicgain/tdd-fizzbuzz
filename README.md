@@ -30,32 +30,6 @@ TestFizzBuzz > TestFiveIsFuzz PASSED
 
 TestFizzBuzz > TestFifteenIsFizzBuzz PASSED
 
-TestFizzBuzz > Test105IsWhizz PASSED
-
-TestFizzBuzz > Test35IsBuzzWhizz PASSED
-
----------------------------------------------------------------
- Result: SUCCESS (6 Tests, 6 Successes, 0 Failures, 0 Skipped)
----------------------------------------------------------------
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/6.4/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 1s
-3 actionable tasks: 3 executed
-[root@tdd tdd-fizzbuzz]# gradle test
-
-> Task :test
-
-TestFizzBuzz > TestThreeIsFizz PASSED
-
-TestFizzBuzz > TestSevenIsWhizz PASSED
-
-TestFizzBuzz > TestFiveIsFuzz PASSED
-
-TestFizzBuzz > TestFifteenIsFizzBuzz PASSED
-
 TestFizzBuzz > Test35IsBuzzWhizz PASSED
 
 TestFizzBuzz > Test105IsFizzBuzzWhizz PASSED
@@ -70,21 +44,5 @@ See https://docs.gradle.org/6.4/userguide/command_line_interface.html#sec:comman
 
 BUILD SUCCESSFUL in 1s
 3 actionable tasks: 2 executed, 1 up-to-date
-[root@tdd tdd-fizzbuzz]# gradle test
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/6.4/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 558ms
-3 actionable tasks: 3 up-to-date
-[root@tdd tdd-fizzbuzz]# gradle test
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/6.4/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 564ms
-3 actionable tasks: 3 up-to-date
 [root@tdd tdd-fizzbuzz]#
 ~~~
